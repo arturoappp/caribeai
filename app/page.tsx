@@ -69,34 +69,35 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* VALOR */}
+      {/* TRAYECTORIA DEL EQUIPO — movida arriba + destacada (era plana antes) */}
       <section className="border-y border-border bg-bg-surface">
-        <div className="container-page py-16">
-          <div className="grid gap-10 md:grid-cols-3">
-            {t.valueProps.map((v, i) => (
-              <div key={v.title} className="border-l-2 border-accent pl-5">
-                <p className="font-mono text-xs text-accent">{String(i + 1).padStart(2, "0")}</p>
-                <h3 className="heading-sm mt-2">{v.title}</h3>
-                <p className="mt-2 text-sm text-fg-dim">{v.text}</p>
+        <div className="container-page py-20 lg:py-24">
+          <p className="label-mono">{t.labels.teamBackground}</p>
+          <h2 className="heading-lg mt-3 max-w-2xl">{t.labels.teamBackgroundH2}</h2>
+          <p className="mt-4 max-w-xl text-fg-dim">{t.labels.teamBackgroundIntro}</p>
+          <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+            {teamBackgroundCompanies.map((name) => (
+              <div
+                key={name}
+                className="group flex h-24 items-center justify-center rounded-md border border-border bg-bg px-4 text-center transition-all hover:border-accent hover:bg-bg-elevated hover:-translate-y-0.5"
+              >
+                <span className="font-mono text-sm font-semibold uppercase tracking-wider text-fg leading-tight transition-colors group-hover:text-accent">
+                  {name}
+                </span>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* TRAYECTORIA DEL EQUIPO — credibilidad por background */}
-      <section className="container-page py-16 border-b border-border">
-        <p className="label-mono">{t.labels.teamBackground}</p>
-        <p className="mt-3 max-w-2xl text-fg-dim">{t.labels.teamBackgroundIntro}</p>
-        <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6 lg:gap-4">
-          {teamBackgroundCompanies.map((name) => (
-            <div
-              key={name}
-              className="flex h-20 items-center justify-center rounded border border-border bg-bg-surface px-3 text-center transition-colors hover:border-border-strong"
-            >
-              <span className="font-mono text-xs uppercase tracking-wider text-fg leading-tight">
-                {name}
-              </span>
+      {/* VALOR — 3 props firmas (mas discreto ahora, no compite con Trayectoria) */}
+      <section className="container-page py-16">
+        <div className="grid gap-10 md:grid-cols-3">
+          {t.valueProps.map((v, i) => (
+            <div key={v.title} className="border-l-2 border-accent pl-5">
+              <p className="font-mono text-xs text-accent">{String(i + 1).padStart(2, "0")}</p>
+              <h3 className="heading-sm mt-2">{v.title}</h3>
+              <p className="mt-2 text-sm text-fg-dim">{v.text}</p>
             </div>
           ))}
         </div>
