@@ -100,6 +100,7 @@ export const content = {
       vision: "Visión",
       whoWeAre: "Quiénes somos",
       teamBackground: "Trayectoria del equipo",
+      teamBackgroundH2: "Donde hemos construido.",
       teamBackgroundIntro: "Nuestro equipo ha desarrollado sistemas en producción para:",
     },
 
@@ -334,6 +335,7 @@ export const content = {
       vision: "Vision",
       whoWeAre: "Who we are",
       teamBackground: "Team background",
+      teamBackgroundH2: "Where we've built.",
       teamBackgroundIntro: "Our team has built production systems for:",
     },
 
