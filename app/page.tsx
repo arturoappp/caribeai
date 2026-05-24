@@ -13,9 +13,9 @@ export default function HomePage() {
       <section className="relative overflow-hidden border-b border-border">
         <div className="absolute inset-0 divider-grid opacity-30" aria-hidden />
         <div className="container-page relative py-28 lg:py-36">
-          <div className="grid items-center gap-12 lg:grid-cols-[1fr_auto] lg:gap-20">
-            {/* TEXTO */}
-            <div>
+          <div className="grid items-center gap-10 lg:grid-cols-[1fr_auto] lg:gap-20">
+            {/* TEXTO — primero en HTML para que mobile vea headline primero */}
+            <div className="lg:order-1">
               <p className="label-mono mb-6">{t.labels.caribeai}</p>
               <h1 className="heading-xl max-w-4xl">{t.tagline}</h1>
               <p className="mt-6 max-w-2xl text-lg text-fg-dim">{t.pitch}</p>
@@ -25,13 +25,14 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* LOGO DECORATIVO — visible lg+ (en mobile/tablet ya esta en header) */}
-            <div className="hidden lg:flex lg:justify-end">
+            {/* LOGO DECORATIVO — visible en TODOS los breakpoints */}
+            {/* Mobile: centrado debajo del texto, h-32. Desktop: a la derecha, h-56/64 */}
+            <div className="flex justify-center lg:order-2 lg:justify-end">
               <img
                 src="/logo.svg"
                 alt=""
                 aria-hidden
-                className="h-56 w-56 xl:h-64 xl:w-64 drop-shadow-[0_0_40px_rgba(6,182,212,0.15)]"
+                className="h-32 w-32 sm:h-40 sm:w-40 lg:h-56 lg:w-56 xl:h-64 xl:w-64 drop-shadow-[0_0_40px_rgba(6,182,212,0.15)]"
               />
             </div>
           </div>
