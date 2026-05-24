@@ -103,10 +103,11 @@ export default function HomePage() {
           <p className="mt-5 max-w-2xl text-lg text-fg-dim">{t.labels.teamBackgroundIntro}</p>
 
           <div className="mt-14 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6 lg:gap-4">
-            {teamBackgroundCompanies.map((name) => (
+            {teamBackgroundCompanies.map((name, i) => (
               <div
                 key={name}
-                className="group flex h-28 items-center justify-center rounded-lg border border-accent/40 bg-bg/60 px-4 text-center backdrop-blur-sm transition-all hover:border-accent hover:bg-bg-elevated hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(6,182,212,0.25)]"
+                style={{ animationDelay: `${i * 0.4}s` }}
+                className="group animate-pulse-glow flex h-28 items-center justify-center rounded-lg border border-accent/40 bg-bg/60 px-4 text-center backdrop-blur-sm transition-all hover:!border-accent hover:bg-bg-elevated hover:-translate-y-1 hover:!shadow-[0_0_30px_rgba(6,182,212,0.35)]"
               >
                 <span className="font-mono text-sm sm:text-base font-bold uppercase tracking-wide text-fg leading-tight transition-colors group-hover:text-accent">
                   {name}
