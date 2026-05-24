@@ -105,7 +105,7 @@ export const content = {
         "Devolver a las organizaciones de nuestra región la soberanía sobre sus datos y su inteligencia. Construir capacidad de IA propia, en infraestructura propia, libre de proveedores extranjeros que pueden cambiar reglas, precios o términos de un día a otro.",
 
       visionP:
-        "La próxima década definirá quién controla la inteligencia que mueve gobiernos, economías y ejércitos. Hoy esa inteligencia se construye y se alquila desde otros países. Trabajamos para que en 2030 las instituciones críticas del Caribe y Latinoamérica operen su propia infraestructura de IA — con sus datos, su talento, sus reglas. Sin pedir permiso.",
+        "La próxima década definirá quién controla la inteligencia que mueve a las organizaciones críticas de la región. Hoy esa inteligencia se construye y se alquila desde el extranjero. Trabajamos para que en 2030 las instituciones del Caribe y Latinoamérica operen su propia infraestructura de IA — con sus datos, su talento y bajo sus propias reglas.",
     },
 
     servicios: {
@@ -141,7 +141,7 @@ export const content = {
     footer: {
       navigate: "Navegar",
       contact: "Contacto",
-      availability: "Disponibilidad: lun-vie 9:00-18:00 (AST). Atención de emergencia 24/7 bajo contrato.",
+      availability: "Atención comercial: lun-vie 9:00-18:00 (AST). Operación de sistemas en producción: monitoreo continuo.",
       copy: "Todos los derechos reservados.",
     },
 
@@ -248,9 +248,9 @@ export const content = {
 
     // Mismo orden que projectsBase
     projects: [
-      { tagline: "Marketplace B2B para construcción",         sector: "Construcción · República Dominicana" },
-      { tagline: "Plataforma gastronómica con reservas",      sector: "Hospitalidad · República Dominicana" },
-      { tagline: "Plataforma de generación AI de contenido",  sector: "IA generativa · Producción continua" },
+      { tagline: "Marketplace B2B para construcción",                     sector: "Construcción · República Dominicana" },
+      { tagline: "Plataforma gastronómica con reservas",                  sector: "Hospitalidad · República Dominicana" },
+      { tagline: "Plataforma SaaS de generación AI de imagen y video",    sector: "IA generativa · SaaS" },
     ],
 
     sectors: [
@@ -331,7 +331,7 @@ export const content = {
         "To return to the organizations of our region sovereignty over their data and their intelligence. To build AI capability on our own infrastructure, free from foreign providers who can change rules, prices, or terms overnight.",
 
       visionP:
-        "The coming decade will define who controls the intelligence that moves governments, economies, and armies. Today that intelligence is built and rented from other countries. We work so that by 2030, critical institutions across the Caribbean and Latin America operate their own AI infrastructure — with their data, their talent, their rules. Without asking permission.",
+        "The coming decade will define who controls the intelligence that powers the region's critical institutions. Today that intelligence is built and rented from abroad. We work so that by 2030, institutions across the Caribbean and Latin America operate their own AI infrastructure — with their data, their talent, and under their own rules.",
     },
 
     servicios: {
@@ -367,7 +367,7 @@ export const content = {
     footer: {
       navigate: "Navigate",
       contact: "Contact",
-      availability: "Hours: Mon-Fri 9:00-18:00 (AST). 24/7 emergency support under contract.",
+      availability: "Business hours: Mon-Fri 9:00-18:00 (AST). Production systems: continuous monitoring.",
       copy: "All rights reserved.",
     },
 
@@ -473,9 +473,9 @@ export const content = {
     ] satisfies Service[],
 
     projects: [
-      { tagline: "B2B construction marketplace",            sector: "Construction · Dominican Republic" },
-      { tagline: "Gastronomic platform with reservations",  sector: "Hospitality · Dominican Republic" },
-      { tagline: "AI content generation platform",          sector: "Generative AI · Continuous production" },
+      { tagline: "B2B construction marketplace",                     sector: "Construction · Dominican Republic" },
+      { tagline: "Gastronomic platform with reservations",           sector: "Hospitality · Dominican Republic" },
+      { tagline: "SaaS platform for AI image and video generation",  sector: "Generative AI · SaaS" },
     ],
 
     sectors: [

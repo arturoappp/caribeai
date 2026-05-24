@@ -31,11 +31,17 @@ export default function ContactoPage() {
           <p className="mt-2 text-sm text-fg-dim">{t.contacto.formIntro}</p>
 
           {/*
-            Form sin backend.
-            Cambia action= a Formspree, su propia API en goldsolido, o Web3Forms.
-            Ejemplo: action="https://formspree.io/f/XXXXXXX"
+            Form funcional vía mailto. Sin backend requerido.
+            Al hacer click en Enviar abre el cliente de email del usuario
+            con asunto pre-rellenado y todos los campos como texto plano.
+            Para upgrade futuro: cambiar action a Formspree/Web3Forms.
           */}
-          <form className="mt-6 space-y-4" method="POST" action="#">
+          <form
+            className="mt-6 space-y-4"
+            method="POST"
+            action={`mailto:${company.email}?subject=${encodeURIComponent("Consulta desde caribeai.net")}`}
+            encType="text/plain"
+          >
             <Field label={t.contacto.fields.name}  name="name"  required />
             <Field label={t.contacto.fields.org}   name="org" />
             <Field label={t.contacto.fields.email} name="email" type="email" required />
