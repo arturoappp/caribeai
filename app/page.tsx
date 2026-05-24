@@ -25,15 +25,21 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* LOGO DECORATIVO — visible en TODOS los breakpoints */}
-            {/* Mobile: centrado debajo del texto, h-32. Desktop: a la derecha, h-56/64 */}
+            {/* LOGO DECORATIVO — grande en todos los breakpoints, glow mas fuerte */}
             <div className="flex justify-center lg:order-2 lg:justify-end">
-              <img
-                src="/logo.svg"
-                alt=""
-                aria-hidden
-                className="h-32 w-32 sm:h-40 sm:w-40 lg:h-56 lg:w-56 xl:h-64 xl:w-64 drop-shadow-[0_0_40px_rgba(6,182,212,0.15)]"
-              />
+              <div className="relative">
+                {/* Halo cyan sutil detras del logo */}
+                <div
+                  className="absolute inset-0 -z-10 rounded-full bg-accent/10 blur-3xl"
+                  aria-hidden
+                />
+                <img
+                  src="/logo.svg"
+                  alt=""
+                  aria-hidden
+                  className="h-48 w-48 sm:h-56 sm:w-56 lg:h-64 lg:w-64 xl:h-72 xl:w-72 drop-shadow-[0_0_60px_rgba(6,182,212,0.35)]"
+                />
+              </div>
             </div>
           </div>
 
@@ -85,19 +91,24 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* TRAYECTORIA DEL EQUIPO — movida arriba + destacada (era plana antes) */}
-      <section className="border-y border-border bg-bg-surface">
-        <div className="container-page py-20 lg:py-24">
+      {/* TRAYECTORIA DEL EQUIPO — version DRAMATICA (border cyan, gradient, boxes con accent permanente) */}
+      <section className="relative border-y-2 border-accent/30 bg-gradient-to-b from-bg-surface via-bg-surface to-bg overflow-hidden">
+        {/* Halo cyan ambient en esquinas */}
+        <div className="absolute -top-32 -left-32 h-64 w-64 rounded-full bg-accent/10 blur-3xl" aria-hidden />
+        <div className="absolute -bottom-32 -right-32 h-64 w-64 rounded-full bg-accent/10 blur-3xl" aria-hidden />
+
+        <div className="container-page relative py-24 lg:py-32">
           <p className="label-mono">{t.labels.teamBackground}</p>
-          <h2 className="heading-lg mt-3 max-w-2xl">{t.labels.teamBackgroundH2}</h2>
-          <p className="mt-4 max-w-xl text-fg-dim">{t.labels.teamBackgroundIntro}</p>
-          <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+          <h2 className="heading-xl mt-3 max-w-3xl">{t.labels.teamBackgroundH2}</h2>
+          <p className="mt-5 max-w-2xl text-lg text-fg-dim">{t.labels.teamBackgroundIntro}</p>
+
+          <div className="mt-14 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6 lg:gap-4">
             {teamBackgroundCompanies.map((name) => (
               <div
                 key={name}
-                className="group flex h-24 items-center justify-center rounded-md border border-border bg-bg px-4 text-center transition-all hover:border-accent hover:bg-bg-elevated hover:-translate-y-0.5"
+                className="group flex h-28 items-center justify-center rounded-lg border border-accent/40 bg-bg/60 px-4 text-center backdrop-blur-sm transition-all hover:border-accent hover:bg-bg-elevated hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(6,182,212,0.25)]"
               >
-                <span className="font-mono text-sm font-semibold uppercase tracking-wider text-fg leading-tight transition-colors group-hover:text-accent">
+                <span className="font-mono text-sm sm:text-base font-bold uppercase tracking-wide text-fg leading-tight transition-colors group-hover:text-accent">
                   {name}
                 </span>
               </div>
