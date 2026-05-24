@@ -22,11 +22,16 @@ export const company = {
 // IMPORTANTE: estas son empresas donde miembros del equipo han trabajado/desarrollado
 // sistemas, NO son clientes de Caribe AI. Lenguaje cuidadoso para evitar
 // implicación de endorsement o uso indebido de marca.
+// ORDEN ESTRATÉGICO: infraestructura crítica RD primero (relevancia local máxima
+// para audiencia dominicana), luego banca internacional (señal de escala/compliance),
+// luego retail/franquicia (señal de operación high-volume).
 export const teamBackgroundCompanies = [
+  "Claro Dominicana",
+  "EDEEste",
+  "JPMorgan Chase",
   "Bank of America",
   "Krispy Kreme",
   "Jersey Mike's",
-  "JMMB Bank",
 ];
 
 // ---------- Tipos ----------

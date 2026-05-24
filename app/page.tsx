@@ -88,13 +88,13 @@ export default function HomePage() {
       <section className="container-page py-16 border-b border-border">
         <p className="label-mono">{t.labels.teamBackground}</p>
         <p className="mt-3 max-w-2xl text-fg-dim">{t.labels.teamBackgroundIntro}</p>
-        <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
+        <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6 lg:gap-4">
           {teamBackgroundCompanies.map((name) => (
             <div
               key={name}
-              className="flex h-20 items-center justify-center rounded border border-border bg-bg-surface px-4 text-center transition-colors hover:border-border-strong"
+              className="flex h-20 items-center justify-center rounded border border-border bg-bg-surface px-3 text-center transition-colors hover:border-border-strong"
             >
-              <span className="font-mono text-sm uppercase tracking-wider text-fg">
+              <span className="font-mono text-xs uppercase tracking-wider text-fg leading-tight">
                 {name}
               </span>
             </div>
