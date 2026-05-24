@@ -9,16 +9,31 @@ export default function HomePage() {
 
   return (
     <>
-      {/* HERO */}
+      {/* HERO — con logo decorativo grande a la derecha (anchor de marca) */}
       <section className="relative overflow-hidden border-b border-border">
         <div className="absolute inset-0 divider-grid opacity-30" aria-hidden />
         <div className="container-page relative py-28 lg:py-36">
-          <p className="label-mono mb-6">{t.labels.caribeai}</p>
-          <h1 className="heading-xl max-w-4xl">{t.tagline}</h1>
-          <p className="mt-6 max-w-2xl text-lg text-fg-dim">{t.pitch}</p>
-          <div className="mt-12 flex flex-wrap gap-4">
-            <Link href="/contacto" className="btn-primary">{t.btn.talk}</Link>
-            <Link href="/servicios" className="btn-secondary">{t.btn.viewServices}</Link>
+          <div className="grid items-center gap-12 lg:grid-cols-[1fr_auto] lg:gap-20">
+            {/* TEXTO */}
+            <div>
+              <p className="label-mono mb-6">{t.labels.caribeai}</p>
+              <h1 className="heading-xl max-w-4xl">{t.tagline}</h1>
+              <p className="mt-6 max-w-2xl text-lg text-fg-dim">{t.pitch}</p>
+              <div className="mt-12 flex flex-wrap gap-4">
+                <Link href="/contacto" className="btn-primary">{t.btn.talk}</Link>
+                <Link href="/servicios" className="btn-secondary">{t.btn.viewServices}</Link>
+              </div>
+            </div>
+
+            {/* LOGO DECORATIVO — visible lg+ (en mobile/tablet ya esta en header) */}
+            <div className="hidden lg:flex lg:justify-end">
+              <img
+                src="/logo.svg"
+                alt=""
+                aria-hidden
+                className="h-56 w-56 xl:h-64 xl:w-64 drop-shadow-[0_0_40px_rgba(6,182,212,0.15)]"
+              />
+            </div>
           </div>
 
           {/* Strip de credenciales — gap responsivo */}
@@ -188,9 +203,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CTA FINAL */}
+      {/* CTA FINAL — con logo arriba para reforzar marca al cierre */}
       <section className="container-page pb-20 pt-8">
         <div className="rounded-lg border border-accent/40 bg-gradient-to-br from-bg-surface to-bg p-10 lg:p-14">
+          <img
+            src="/logo.svg"
+            alt=""
+            aria-hidden
+            className="h-14 w-14 mb-6 drop-shadow-[0_0_30px_rgba(6,182,212,0.2)]"
+          />
           <h2 className="heading-lg max-w-2xl">{t.home.ctaH2}</h2>
           <p className="mt-4 max-w-2xl text-fg-dim">{t.home.ctaP}</p>
           <div className="mt-8 flex flex-wrap gap-4">
