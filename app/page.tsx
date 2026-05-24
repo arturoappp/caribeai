@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { company, content, getProjects } from "@/lib/data";
+import { company, content, getProjects, teamBackgroundCompanies } from "@/lib/data";
 import { getLang } from "@/lib/i18n";
 
 export default function HomePage() {
@@ -81,6 +81,24 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* TRAYECTORIA DEL EQUIPO — credibilidad por background */}
+      <section className="container-page py-16 border-b border-border">
+        <p className="label-mono">{t.labels.teamBackground}</p>
+        <p className="mt-3 max-w-2xl text-fg-dim">{t.labels.teamBackgroundIntro}</p>
+        <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
+          {teamBackgroundCompanies.map((name) => (
+            <div
+              key={name}
+              className="flex h-20 items-center justify-center rounded border border-border bg-bg-surface px-4 text-center transition-colors hover:border-border-strong"
+            >
+              <span className="font-mono text-sm uppercase tracking-wider text-fg">
+                {name}
+              </span>
+            </div>
+          ))}
         </div>
       </section>
 

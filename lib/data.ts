@@ -18,6 +18,17 @@ export const company = {
   linkedin: "https://linkedin.com/company/caribeai",
 };
 
+// ---------- Trayectoria del equipo (no traducen los nombres de empresa) ----------
+// IMPORTANTE: estas son empresas donde miembros del equipo han trabajado/desarrollado
+// sistemas, NO son clientes de Caribe AI. Lenguaje cuidadoso para evitar
+// implicación de endorsement o uso indebido de marca.
+export const teamBackgroundCompanies = [
+  "Bank of America",
+  "Krispy Kreme",
+  "Jersey Mike's",
+  "JMMB Bank",
+];
+
 // ---------- Tipos ----------
 export type Service = {
   number: string;
@@ -83,6 +94,8 @@ export const content = {
       mission: "Misión",
       vision: "Visión",
       whoWeAre: "Quiénes somos",
+      teamBackground: "Trayectoria del equipo",
+      teamBackgroundIntro: "Nuestro equipo ha desarrollado sistemas en producción para:",
     },
 
     home: {
@@ -309,6 +322,8 @@ export const content = {
       mission: "Mission",
       vision: "Vision",
       whoWeAre: "Who we are",
+      teamBackground: "Team background",
+      teamBackgroundIntro: "Our team has built production systems for:",
     },
 
     home: {
