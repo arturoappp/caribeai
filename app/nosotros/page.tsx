@@ -39,6 +39,30 @@ export default function NosotrosPage() {
         </div>
       </section>
 
+      {/* FUNDADOR */}
+      <section className="border-t border-border bg-bg-surface">
+        <div className="container-page py-20">
+          <p className="label-mono mb-10">// {t.nosotros.founderLabel}</p>
+          <div className="grid gap-10 lg:grid-cols-[260px_1fr] lg:gap-16 lg:items-start">
+            {/* Foto del fundador */}
+            <div className="relative aspect-square w-full max-w-[260px] overflow-hidden rounded-lg border border-border bg-bg">
+              <img
+                src="/founder.png"
+                alt={t.nosotros.founderName}
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+            </div>
+
+            {/* Bio */}
+            <div className="max-w-2xl">
+              <h2 className="heading-md">{t.nosotros.founderName}</h2>
+              <p className="mt-2 font-mono text-sm text-accent">{t.nosotros.founderTitle}</p>
+              <p className="mt-6 text-lg text-fg-dim leading-relaxed">{t.nosotros.founderBio}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* MISIÓN */}
       <section className="border-y border-border bg-bg-surface">
         <div className="container-page py-20">

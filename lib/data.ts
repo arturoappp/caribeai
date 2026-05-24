@@ -119,6 +119,12 @@ export const content = {
       whoWeAreP:
         "Caribe AI Systems es una casa de ingeniería de software con base en República Dominicana. Construimos plataformas, sistemas críticos e inteligencia artificial para organizaciones que entienden que el control de los datos es control del futuro. Operamos directo, sin agencias intermediarias, con responsabilidad de principio a fin.",
 
+      founderLabel: "Fundador",
+      founderName: "Jose Arturo Taveras",
+      founderTitle: "Fundador y arquitecto principal",
+      founderBio:
+        "Más de 20 años desarrollando sistemas backend de alta escala y plataformas críticas. Trayectoria construyendo en banca internacional, telecomunicaciones e infraestructura crítica regional. Especialista en arquitectura de software, despliegue de IA on-premise y operación de sistemas en producción continua.",
+
       missionP:
         "Devolver a las organizaciones de nuestra región la soberanía sobre sus datos y su inteligencia. Construir capacidad de IA propia, en infraestructura propia, libre de proveedores extranjeros que pueden cambiar reglas, precios o términos de un día a otro.",
 
@@ -346,6 +352,12 @@ export const content = {
 
       whoWeAreP:
         "Caribe AI Systems is a software engineering firm based in the Dominican Republic. We build platforms, critical systems and artificial intelligence for organizations that understand that control of data is control of the future. We work directly, without intermediary agencies, with end-to-end accountability.",
+
+      founderLabel: "Founder",
+      founderName: "Jose Arturo Taveras",
+      founderTitle: "Founder and principal architect",
+      founderBio:
+        "20+ years building large-scale backend systems and critical platforms. Track record across international banking, telecommunications and regional critical infrastructure. Specialist in software architecture, on-premise AI deployment and continuous production operations.",
 
       missionP:
         "To return to the organizations of our region sovereignty over their data and their intelligence. To build AI capability on our own infrastructure, free from foreign providers who can change rules, prices, or terms overnight.",
