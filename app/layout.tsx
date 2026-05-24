@@ -6,7 +6,7 @@ import { getLang } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://caribeai.do"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://caribeai.net"
   ),
   title: "Caribe AI — Sistemas críticos · IA soberana",
   description:

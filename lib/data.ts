@@ -11,8 +11,8 @@ import type { Lang } from "./i18n";
 export const company = {
   name: "Caribe AI",
   legalName: "Caribe AI Systems S.R.L.",
-  domain: "caribeai.do",
-  email: "contacto@caribeai.do",
+  domain: "caribeai.net",
+  email: "contacto@caribeai.net",
   whatsapp: "+1 (314) 328-0994",
   whatsappLink: "https://wa.me/13143280994",
   linkedin: "https://linkedin.com/company/caribeai",
