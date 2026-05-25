@@ -120,11 +120,21 @@ export const content = {
       whoWeAreP:
         "Caribe AI Systems es una casa de ingeniería de software con base en República Dominicana. Construimos plataformas, sistemas críticos e inteligencia artificial para organizaciones que entienden que el control de los datos es control del futuro. Operamos directo, sin agencias intermediarias, con responsabilidad de principio a fin.",
 
-      founderLabel: "Fundador",
-      founderName: "Jose Arturo Taveras",
-      founderTitle: "Fundador y arquitecto principal",
-      founderBio:
-        "Más de 20 años desarrollando sistemas backend de alta escala y plataformas críticas. Trayectoria construyendo en banca internacional, telecomunicaciones e infraestructura crítica regional. Especialista en arquitectura de software, despliegue de IA on-premise y operación de sistemas en producción continua.",
+      leadershipLabel: "Liderazgo",
+      leadership: [
+        {
+          name: "Jose Arturo Taveras",
+          title: "Fundador y arquitecto principal",
+          photo: "/founder.png",
+          bio: "Más de 20 años desarrollando sistemas backend de alta escala y plataformas críticas. Trayectoria construyendo en banca internacional, telecomunicaciones e infraestructura crítica regional. Especialista en arquitectura de software, despliegue de IA on-premise y operación de sistemas en producción continua.",
+        },
+        {
+          name: "Wanda Felix",
+          title: "Co-Fundadora y Directora de Operaciones",
+          photo: "/wanda.png",
+          bio: "Más de una década coordinando proyectos complejos en construcción comercial, retail y tecnología enterprise. En Shopify gestionó portafolio de 50+ clientes enterprise en Norteamérica y Latinoamérica, ejecutando revisiones trimestrales que elevaron la adopción de producto en 20%. Fundó y operó su propia marca de retail bilingüe. Certificada en estrategia digital por Meta. En Caribe AI lidera operaciones, planificación comercial y relación con clientes — el músculo que convierte capacidad técnica en entregas predecibles.",
+        },
+      ],
 
       missionP:
         "Devolver a las organizaciones de nuestra región la soberanía sobre sus datos y su inteligencia. Construir capacidad de IA propia, en infraestructura propia, libre de proveedores extranjeros que pueden cambiar reglas, precios o términos de un día a otro.",
@@ -355,11 +365,21 @@ export const content = {
       whoWeAreP:
         "Caribe AI Systems is a software engineering firm based in the Dominican Republic. We build platforms, critical systems and artificial intelligence for organizations that understand that control of data is control of the future. We work directly, without intermediary agencies, with end-to-end accountability.",
 
-      founderLabel: "Founder",
-      founderName: "Jose Arturo Taveras",
-      founderTitle: "Founder and principal architect",
-      founderBio:
-        "20+ years building large-scale backend systems and critical platforms. Track record across international banking, telecommunications and regional critical infrastructure. Specialist in software architecture, on-premise AI deployment and continuous production operations.",
+      leadershipLabel: "Leadership",
+      leadership: [
+        {
+          name: "Jose Arturo Taveras",
+          title: "Founder and principal architect",
+          photo: "/founder.png",
+          bio: "20+ years building large-scale backend systems and critical platforms. Track record across international banking, telecommunications and regional critical infrastructure. Specialist in software architecture, on-premise AI deployment and continuous production operations.",
+        },
+        {
+          name: "Wanda Felix",
+          title: "Co-Founder and Chief Operating Officer",
+          photo: "/wanda.png",
+          bio: "Over a decade coordinating complex projects across commercial construction, retail, and enterprise technology. At Shopify, managed a portfolio of 50+ enterprise clients across North America and Latin America, executing quarterly business reviews that drove a 20% improvement in product adoption. Founded and operated her own bilingual retail brand. Certified in Digital Strategy by Meta. At Caribe AI she leads operations, commercial planning and client relationships — the operational discipline that turns technical capability into predictable delivery.",
+        },
+      ],
 
       missionP:
         "To return to the organizations of our region sovereignty over their data and their intelligence. To build AI capability on our own infrastructure, free from foreign providers who can change rules, prices, or terms overnight.",
