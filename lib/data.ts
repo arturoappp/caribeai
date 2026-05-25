@@ -129,7 +129,7 @@ export const content = {
           bio: "Más de 20 años desarrollando sistemas backend de alta escala y plataformas críticas. Trayectoria construyendo en banca internacional, telecomunicaciones e infraestructura crítica regional. Especialista en arquitectura de software, despliegue de IA on-premise y operación de sistemas en producción continua.",
         },
         {
-          name: "Wanda Felix",
+          name: "Wanda Feliz",
           title: "Co-Fundadora y Directora de Operaciones",
           photo: "/wanda.png",
           bio: "Más de una década coordinando proyectos complejos en construcción comercial, retail y tecnología enterprise. En Shopify gestionó portafolio de 50+ clientes enterprise en Norteamérica y Latinoamérica, ejecutando revisiones trimestrales que elevaron la adopción de producto en 20%. Fundó y operó su propia marca de retail bilingüe. Certificada en estrategia digital por Meta. En Caribe AI lidera operaciones, planificación comercial y relación con clientes — el músculo que convierte capacidad técnica en entregas predecibles.",
@@ -374,7 +374,7 @@ export const content = {
           bio: "20+ years building large-scale backend systems and critical platforms. Track record across international banking, telecommunications and regional critical infrastructure. Specialist in software architecture, on-premise AI deployment and continuous production operations.",
         },
         {
-          name: "Wanda Felix",
+          name: "Wanda Feliz",
           title: "Co-Founder and Chief Operating Officer",
           photo: "/wanda.png",
           bio: "Over a decade coordinating complex projects across commercial construction, retail, and enterprise technology. At Shopify, managed a portfolio of 50+ enterprise clients across North America and Latin America, executing quarterly business reviews that drove a 20% improvement in product adoption. Founded and operated her own bilingual retail brand. Certified in Digital Strategy by Meta. At Caribe AI she leads operations, commercial planning and client relationships — the operational discipline that turns technical capability into predictable delivery.",
