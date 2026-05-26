@@ -62,7 +62,7 @@ export type Project = ProjectBase & {
 // ---------- Proyectos: base no-traducible ----------
 const projectsBase: ProjectBase[] = [
   { id: "ebo",       name: "Ebo",       brand: "EBO",       url: "https://ebodom.com",          accent: "#EAB308" },
-  { id: "donde",     name: "Donde.do",  brand: "donde.do",  url: "https://donde.do/negocios",   accent: "#F97316" },
+  { id: "donde",     name: "Donde.do",  brand: "donde.do",  url: "https://donde.do",            accent: "#F97316" },
   { id: "movicora",  name: "Movicora",  brand: "MOVICORA",  url: "https://movicora.com",        accent: "#06B6D4" },
 ];
 
