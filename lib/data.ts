@@ -134,6 +134,18 @@ export const content = {
           photo: "/wanda.png",
           bio: "Más de una década coordinando proyectos complejos en construcción comercial, retail y tecnología enterprise. En Shopify gestionó portafolio de 50+ clientes enterprise en Norteamérica y Latinoamérica, ejecutando revisiones trimestrales que elevaron la adopción de producto en 20%. Fundó y operó su propia marca de retail bilingüe. Certificada en estrategia digital por Meta. En Caribe AI lidera operaciones, planificación comercial y relación con clientes — el músculo que convierte capacidad técnica en entregas predecibles.",
         },
+        {
+          name: "Jeremy López",
+          title: "Co-Fundador y Director de Ingeniería Frontend",
+          photo: "/jeremy.png",
+          bio: "Senior Software Engineer con cerca de 8 años construyendo aplicaciones web modernas. Especialista en React, Next.js, TypeScript y arquitectura front-end. Su trayectoria incluye plataformas para banca, salud, seguros, e-commerce y SaaS — diseñando design systems escalables, optimizando rendimiento web, e implementando estrategias de renderizado (SSR/CSR/ISR). Stack full-stack que abarca FastAPI, Node.js, PostgreSQL, AWS y Kubernetes. Egresado de Universidad APEC (Ingeniería en Software) e ITLA. En Caribe AI lidera la ingeniería frontend — la capa que define la experiencia de cada producto.",
+        },
+        {
+          name: "Eliezer Mendez",
+          title: "Co-Fundador y Director de Ingeniería Backend",
+          photo: "/eliezer.png",
+          bio: "Ingeniero de software con más de 9 años desarrollando aplicaciones robustas y escalables. Trayectoria construyendo sistemas backend para empresas en Estados Unidos y Latinoamérica, con experiencia profunda en Ruby on Rails, arquitectura de datos y metodologías ágiles. Egresado de Universidad APEC. Bilingüe español/inglés. En Caribe AI lidera la ingeniería backend — el motor que sostiene la integridad y el rendimiento de cada sistema que entregamos.",
+        },
       ],
 
       missionP:
@@ -378,6 +390,18 @@ export const content = {
           title: "Co-Founder and Chief Operating Officer",
           photo: "/wanda.png",
           bio: "Over a decade coordinating complex projects across commercial construction, retail, and enterprise technology. At Shopify, managed a portfolio of 50+ enterprise clients across North America and Latin America, executing quarterly business reviews that drove a 20% improvement in product adoption. Founded and operated her own bilingual retail brand. Certified in Digital Strategy by Meta. At Caribe AI she leads operations, commercial planning and client relationships — the operational discipline that turns technical capability into predictable delivery.",
+        },
+        {
+          name: "Jeremy López",
+          title: "Co-Founder and Head of Frontend Engineering",
+          photo: "/jeremy.png",
+          bio: "Senior Software Engineer with nearly 8 years building modern web applications. Specialist in React, Next.js, TypeScript and front-end architecture. His track record spans platforms for banking, healthcare, insurance, e-commerce and SaaS — designing scalable design systems, optimizing web performance, and implementing rendering strategies (SSR/CSR/ISR). Full-stack capability spanning FastAPI, Node.js, PostgreSQL, AWS and Kubernetes. Graduate of Universidad APEC (Software Engineering) and ITLA. At Caribe AI he leads frontend engineering — the layer that defines every product's experience.",
+        },
+        {
+          name: "Eliezer Mendez",
+          title: "Co-Founder and Head of Backend Engineering",
+          photo: "/eliezer.png",
+          bio: "Software engineer with over 9 years building robust and scalable applications. Track record developing backend systems for companies in the United States and Latin America, with deep experience in Ruby on Rails, data architecture and agile methodologies. Graduate of Universidad APEC. Bilingual Spanish/English. At Caribe AI he leads backend engineering — the engine that holds the integrity and performance of every system we deliver.",
         },
       ],
 
